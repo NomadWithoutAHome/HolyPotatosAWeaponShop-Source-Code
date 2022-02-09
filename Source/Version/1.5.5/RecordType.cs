@@ -1,0 +1,23 @@
+public enum RecordType
+{
+	RecordTypeEarningStartingCapital,
+	RecordTypeEarningWeapon,
+	RecordTypeEarningContract,
+	RecordTypeEarningRequest,
+	RecordTypeEarningLegendary,
+	RecordTypeEarningLoan,
+	RecordTypeEarningBuyDiscount,
+	RecordTypeEarningMisc,
+	RecordTypeExpenseOutsource,
+	RecordTypeExpenseBuyItem,
+	RecordTypeExpenseShopUpgrades,
+	RecordTypeExpenseTraining,
+	RecordTypeExpenseVacation,
+	RecordTypeExpenseResearch,
+	RecordTypeExpenseJobChange,
+	RecordTypeExpenseRecruitHire,
+	RecordTypeExpenseSalary,
+	RecordTypeExpenseMisc,
+	RecordTypeSpecial,
+	RecordTypeBlank
+}
