@@ -12,7 +12,7 @@ Happy Modding,
 # Requirements
 
  1. Net Framework 3.5 (  **Dev Pack** )
- 2. Latest version of HPAW (  **1.1.6** )
+ 2. Latest version of HPAW (  **1.1.5** )
  3. Coffee ( **Black** )
 
 # Credits
