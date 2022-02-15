@@ -12,7 +12,7 @@ Happy Modding,
 # Requirements
 
  1. Net Framework 3.5 (  **Dev Pack** )
- 2. Latest version of HPAW (  **1.1.5** ) or ** GOG ** version ** 1.1.4.1 **
+ 2. Latest version of HPAW (  **1.1.5** ) or **GOG** version **1.1.4.1**
  3. Coffee ( **Black** )
 
 # Credits
@@ -20,6 +20,6 @@ All rights and credits goto the original devolpers of the game [Daylight Studios
 
 >Note: These files are untouched/unmodified in anyway aside from correcting compiler errors
 
->Note: There are ** Versions ** one from ** STEAM ** and one from **GOG** the steam version is the latest version of the game as of **2/14/2022** and the ** GOG ** version is ** 1.1.4.1 **
+>Note: There are **versions** one from **STEAM** and one from **GOG** the steam version is the latest version of the game as of **2/14/2022** and the **GOG** version is **1.1.4.1**
  
     
