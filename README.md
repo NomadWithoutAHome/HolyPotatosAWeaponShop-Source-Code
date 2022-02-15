@@ -20,6 +20,6 @@ All rights and credits goto the original devolpers of the game [Daylight Studios
 
 >Note: These files are untouched/unmodified in anyway aside from correcting compiler errors
 
->Note: There are **versions** one from **STEAM** and one from **GOG** the steam version is the latest version of the game as of **2/14/2022** and the **GOG** version is **1.1.4.1**
+>Note: There are two **versions** one from **STEAM** and one from **GOG** the steam version is the latest version of the game as of **2/14/2022** and the **GOG** version is **1.1.4.1**
  
     
