@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net35</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\..\..\Desktop\game-holy.potatoes.a.weapon.shop-(25213)\HPAWS_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="SmoothMoves_Runtime">
+      <HintPath>..\..\..\..\..\..\..\Desktop\game-holy.potatoes.a.weapon.shop-(25213)\HPAWS_Data\Managed\SmoothMoves_Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\..\..\..\..\..\Desktop\game-holy.potatoes.a.weapon.shop-(25213)\HPAWS_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+  </ItemGroup>
+</Project>

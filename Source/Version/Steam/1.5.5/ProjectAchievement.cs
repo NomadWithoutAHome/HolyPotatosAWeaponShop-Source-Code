@@ -1,0 +1,9 @@
+public enum ProjectAchievement
+{
+	ProjectAchievementGoldenHammerOverall,
+	ProjectAchievementGoldenHammerAttack,
+	ProjectAchievementGoldenHammerSpeed,
+	ProjectAchievementGoldenHammerAccuracy,
+	ProjectAchievementGoldenHammerMagic,
+	ProjectAchievementBlank
+}

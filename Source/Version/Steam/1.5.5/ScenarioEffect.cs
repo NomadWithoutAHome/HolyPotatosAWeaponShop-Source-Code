@@ -1,0 +1,21 @@
+public enum ScenarioEffect
+{
+	ScenarioEffectGold,
+	ScenarioEffectPowUpPerm,
+	ScenarioEffectIntUpPerm,
+	ScenarioEffectTecUpPerm,
+	ScenarioEffectLucUpPerm,
+	ScenarioEffectStaUpPerm,
+	ScenarioEffectPowUpTempMult,
+	ScenarioEffectIntUpTempMult,
+	ScenarioEffectTecUpTempMult,
+	ScenarioEffectLucUpTempMult,
+	ScenarioEffectStaUpTempMult,
+	ScenarioEffectAtkAbs,
+	ScenarioEffectSpdAbs,
+	ScenarioEffectAccAbs,
+	ScenarioEffectMagAbs,
+	ScenarioEffectWeaponStats,
+	ScenarioEffectUnlockSmith,
+	ScenarioEffectNothing
+}
