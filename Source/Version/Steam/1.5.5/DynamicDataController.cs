@@ -175,7 +175,7 @@ public class DynamicDataController : MonoBehaviour
 		WWWForm form = new WWWForm();
 		form.AddField("json", uploadData);
 		CommonAPI.debug("sendPlayerData " + uploadData);
-		WWW www = new WWW("http://127.0.0.1:5000", form);
+		WWW www = new WWW("http://54.251.97.227/WeaponStory/Development/DarkEngineConnection.php", form);
 		while (!www.isDone)
 		{
 			yield return null;
@@ -301,8 +301,6 @@ public class DynamicDataController : MonoBehaviour
 				dynCode.codeRefId = item.getRefID();
 				dynCode.isUsed = item.checkUsed().ToString();
 				list.Add(dynCode);
-				//CommonAPI.debug(dynCode);
-				Console.Write(dynCode);
 			}
 			return list;
 		}

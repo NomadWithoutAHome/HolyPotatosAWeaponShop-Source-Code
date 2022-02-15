@@ -1,30 +1,47 @@
-﻿using System;
 using System.Collections;
 using UnityEngine;
 
-// Token: 0x020001AD RID: 429
 public class GUIGridController : MonoBehaviour
 {
-	// Token: 0x06000B4E RID: 2894 RVA: 0x0005F03C File Offset: 0x0005D43C
+	private Game game;
+
+	private CommonScreenObject commonScreenObject;
+
+	private GameObject grid;
+
+	private int widthNoOfSquare = 12;
+
+	private int heightNoOfSquare = 14;
+
+	private float spawnSpeed;
+
+	private SpriteRenderer floor;
+
+	private SpriteRenderer wall_left;
+
+	private SpriteRenderer wall_right;
+
+	private GameObject sceneBackground;
+
+	private Vector3[,] coordinates;
+
 	private void Awake()
 	{
-		this.game = GameObject.Find("Game").GetComponent<Game>();
-		this.commonScreenObject = GameObject.Find("CommonScreenObject").GetComponent<CommonScreenObject>();
-		this.grid = GameObject.Find("Grid");
-		this.floor = GameObject.Find("Floor").GetComponent<SpriteRenderer>();
-		this.wall_left = GameObject.Find("Wall_left").GetComponent<SpriteRenderer>();
-		this.wall_right = GameObject.Find("Wall_right").GetComponent<SpriteRenderer>();
-		this.sceneBackground = GameObject.Find("SceneBackground");
-		this.coordinates = new Vector3[this.widthNoOfSquare, this.heightNoOfSquare];
+		game = GameObject.Find("Game").GetComponent<Game>();
+		commonScreenObject = GameObject.Find("CommonScreenObject").GetComponent<CommonScreenObject>();
+		grid = GameObject.Find("Grid");
+		floor = GameObject.Find("Floor").GetComponent<SpriteRenderer>();
+		wall_left = GameObject.Find("Wall_left").GetComponent<SpriteRenderer>();
+		wall_right = GameObject.Find("Wall_right").GetComponent<SpriteRenderer>();
+		sceneBackground = GameObject.Find("SceneBackground");
+		coordinates = new Vector3[widthNoOfSquare, heightNoOfSquare];
 	}
 
-	// Token: 0x06000B4F RID: 2895 RVA: 0x0005F0E9 File Offset: 0x0005D4E9
 	public void createWorld(bool refresh = false)
 	{
-		base.StartCoroutine("CreateWorld", refresh);
+		StartCoroutine("CreateWorld", refresh);
 	}
 
-	// Token: 0x06000B50 RID: 2896 RVA: 0x0005F100 File Offset: 0x0005D500
 	private IEnumerator CreateWorld(bool refresh)
 	{
 		ShopLevel playerShopLvl = this.game.getPlayer().getShopLevel();
@@ -66,71 +83,34 @@ public class GUIGridController : MonoBehaviour
 		yield break;
 	}
 
-	// Token: 0x06000B51 RID: 2897 RVA: 0x0005F122 File Offset: 0x0005D522
 	public int getWidthNoOfSquare()
 	{
-		return this.widthNoOfSquare;
+		return widthNoOfSquare;
 	}
 
-	// Token: 0x06000B52 RID: 2898 RVA: 0x0005F12A File Offset: 0x0005D52A
 	public int getHeightNoOfSquare()
 	{
-		return this.heightNoOfSquare;
+		return heightNoOfSquare;
 	}
 
-	// Token: 0x06000B53 RID: 2899 RVA: 0x0005F132 File Offset: 0x0005D532
 	public Vector3 getPosition(int x, int z)
 	{
-		return this.coordinates[x, z];
+		return coordinates[x, z];
 	}
 
-	// Token: 0x06000B54 RID: 2900 RVA: 0x0005F144 File Offset: 0x0005D544
 	public Vector2 getCoordinates(Vector3 aPosition)
 	{
 		aPosition.y = 0f;
-		for (int i = 0; i < this.widthNoOfSquare; i++)
+		for (int i = 0; i < widthNoOfSquare; i++)
 		{
-			for (int j = 0; j < this.heightNoOfSquare; j++)
+			for (int j = 0; j < heightNoOfSquare; j++)
 			{
-				if (Vector3.Distance(aPosition, this.coordinates[i, j]) <= 0.2f)
+				if (Vector3.Distance(aPosition, coordinates[i, j]) <= 0.2f)
 				{
-					return new Vector2((float)i, (float)j);
+					return new Vector2(i, j);
 				}
 			}
 		}
 		return new Vector2(-1f, -1f);
 	}
-
-	// Token: 0x04000B7A RID: 2938
-	private Game game;
-
-	// Token: 0x04000B7B RID: 2939
-	private CommonScreenObject commonScreenObject;
-
-	// Token: 0x04000B7C RID: 2940
-	private GameObject grid;
-
-	// Token: 0x04000B7D RID: 2941
-	private int widthNoOfSquare = 12;
-
-	// Token: 0x04000B7E RID: 2942
-	private int heightNoOfSquare = 14;
-
-	// Token: 0x04000B7F RID: 2943
-	private float spawnSpeed;
-
-	// Token: 0x04000B80 RID: 2944
-	private SpriteRenderer floor;
-
-	// Token: 0x04000B81 RID: 2945
-	private SpriteRenderer wall_left;
-
-	// Token: 0x04000B82 RID: 2946
-	private SpriteRenderer wall_right;
-
-	// Token: 0x04000B83 RID: 2947
-	private GameObject sceneBackground;
-
-	// Token: 0x04000B84 RID: 2948
-	private Vector3[,] coordinates;
 }

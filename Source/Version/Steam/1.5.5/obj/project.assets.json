@@ -8,19 +8,19 @@
     ".NETFramework,Version=v3.5": []
   },
   "packageFolders": {
-    "C:\\Users\\DohmBoyOG\\.nuget\\packages\\": {}
+    "C:\\Users\\SeanS\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DohmBoyOG\\Desktop\\hpaws\\New folder\\Assembly-CSharp.csproj",
+      "projectUniqueName": "C:\\Users\\SeanS\\OneDrive\\Documents\\GitHub\\HolyPotatosAWeaponShop-Source-Code\\Source\\Version\\Steam\\1.5.5\\Assembly-CSharp.csproj",
       "projectName": "Assembly-CSharp",
-      "projectPath": "C:\\Users\\DohmBoyOG\\Desktop\\hpaws\\New folder\\Assembly-CSharp.csproj",
-      "packagesPath": "C:\\Users\\DohmBoyOG\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DohmBoyOG\\Desktop\\hpaws\\New folder\\obj\\",
+      "projectPath": "C:\\Users\\SeanS\\OneDrive\\Documents\\GitHub\\HolyPotatosAWeaponShop-Source-Code\\Source\\Version\\Steam\\1.5.5\\Assembly-CSharp.csproj",
+      "packagesPath": "C:\\Users\\SeanS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\SeanS\\OneDrive\\Documents\\GitHub\\HolyPotatosAWeaponShop-Source-Code\\Source\\Version\\Steam\\1.5.5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DohmBoyOG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\SeanS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -45,7 +45,7 @@
     "frameworks": {
       "net35": {
         "targetAlias": "net35",
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

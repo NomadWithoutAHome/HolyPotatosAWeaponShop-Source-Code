@@ -1,12 +1,11 @@
-C:\Users\DohmBoyOG\Desktop\hpaws\New folder\obj\Debug\net35\Assembly-CSharp.csproj.AssemblyReference.cache
-C:\Users\DohmBoyOG\Desktop\hpaws\New folder\obj\Debug\net35\Assembly-CSharp.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\DohmBoyOG\Desktop\hpaws\New folder\obj\Debug\net35\Assembly-CSharp.csproj.CoreCompileInputs.cache
-C:\Users\DohmBoyOG\Desktop\hpaws\New folder\bin\Debug\net35\Assembly-CSharp.dll
-C:\Users\DohmBoyOG\Desktop\hpaws\New folder\bin\Debug\net35\Assembly-CSharp.pdb
-C:\Users\DohmBoyOG\Desktop\hpaws\New folder\bin\Debug\net35\Assembly-CSharp-firstpass.dll
-C:\Users\DohmBoyOG\Desktop\hpaws\New folder\bin\Debug\net35\SmoothMoves_Runtime.dll
-C:\Users\DohmBoyOG\Desktop\hpaws\New folder\bin\Debug\net35\System.Core.dll
-C:\Users\DohmBoyOG\Desktop\hpaws\New folder\bin\Debug\net35\UnityEngine.dll
-C:\Users\DohmBoyOG\Desktop\hpaws\New folder\obj\Debug\net35\Assembly-CSharp.csproj.CopyComplete
-C:\Users\DohmBoyOG\Desktop\hpaws\New folder\obj\Debug\net35\Assembly-CSharp.dll
-C:\Users\DohmBoyOG\Desktop\hpaws\New folder\obj\Debug\net35\Assembly-CSharp.pdb
+C:\Users\SeanS\OneDrive\Documents\GitHub\HolyPotatosAWeaponShop-Source-Code\Source\Version\Steam\1.5.5\obj\Debug\net35\Assembly-CSharp.csproj.AssemblyReference.cache
+C:\Users\SeanS\OneDrive\Documents\GitHub\HolyPotatosAWeaponShop-Source-Code\Source\Version\Steam\1.5.5\obj\Debug\net35\Assembly-CSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SeanS\OneDrive\Documents\GitHub\HolyPotatosAWeaponShop-Source-Code\Source\Version\Steam\1.5.5\obj\Debug\net35\Assembly-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\SeanS\OneDrive\Documents\GitHub\HolyPotatosAWeaponShop-Source-Code\Source\Version\Steam\1.5.5\bin\Debug\net35\Assembly-CSharp.dll
+C:\Users\SeanS\OneDrive\Documents\GitHub\HolyPotatosAWeaponShop-Source-Code\Source\Version\Steam\1.5.5\bin\Debug\net35\Assembly-CSharp.pdb
+C:\Users\SeanS\OneDrive\Documents\GitHub\HolyPotatosAWeaponShop-Source-Code\Source\Version\Steam\1.5.5\bin\Debug\net35\Assembly-CSharp-firstpass.dll
+C:\Users\SeanS\OneDrive\Documents\GitHub\HolyPotatosAWeaponShop-Source-Code\Source\Version\Steam\1.5.5\bin\Debug\net35\SmoothMoves_Runtime.dll
+C:\Users\SeanS\OneDrive\Documents\GitHub\HolyPotatosAWeaponShop-Source-Code\Source\Version\Steam\1.5.5\bin\Debug\net35\UnityEngine.dll
+C:\Users\SeanS\OneDrive\Documents\GitHub\HolyPotatosAWeaponShop-Source-Code\Source\Version\Steam\1.5.5\obj\Debug\net35\Assembly-CSharp.csproj.CopyComplete
+C:\Users\SeanS\OneDrive\Documents\GitHub\HolyPotatosAWeaponShop-Source-Code\Source\Version\Steam\1.5.5\obj\Debug\net35\Assembly-CSharp.dll
+C:\Users\SeanS\OneDrive\Documents\GitHub\HolyPotatosAWeaponShop-Source-Code\Source\Version\Steam\1.5.5\obj\Debug\net35\Assembly-CSharp.pdb

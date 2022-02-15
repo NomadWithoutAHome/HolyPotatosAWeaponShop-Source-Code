@@ -84,7 +84,7 @@ public static class Constants
 
 	public const bool SHOW_LANGUAGE = true;
 
-	public const string VERSION = "V 1.1.6";
+	public const string VERSION = "V 1.1.5";
 
 	public const bool SHOW_DEBUG_HUD = false;
 
